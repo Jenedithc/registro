@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Registro de la persona Usuaria</title>
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h3 id="registro-titulo">Registro de la persona Usuaria</h3>
+    
+    <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="correo">Correo Electrónico</label>
+        <input type="email" id="correo" name="correo">
+
+        <label for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena">
+
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" name="descripcion" rows="5"></textarea>
+
+        <div class="intereses">
+            <div class="intereses-titulo">Intereses</div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="salud" name="intereses" value="salud">
+                <label for="salud">Salud</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+                <label for="tecnologia">Tecnología</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="medio-ambiente" name="intereses" value="medio-ambiente">
+                <label for="medio-ambiente">Medio ambiente</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="ciencias-sociales" name="intereses" value="ciencias-sociales">
+                <label for="ciencias-sociales">Ciencias sociales</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="zootecnia" name="intereses" value="zootecnia">
+                <label for="zootecnia">Zootecnia</label>
+            </div>
+        </div>
+
+        <button type="submit" class="boton-submit">Registrarse</button>
+    </form>
+</body>
+</html>
+
+
+
